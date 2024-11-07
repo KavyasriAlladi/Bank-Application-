@@ -1,0 +1,134 @@
+/* Withdraw.css */
+
+/* Style for the main container */
+.withdraw-container {
+    padding: 50px;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 5px solid #ddd;
+    border-radius: 5px;
+    background-color:  #99b3e6;
+    margin-top: 180px;
+    
+  }
+  
+  /* Style for headings */
+  .withdraw-container h2 {
+    font-size: 2rem;
+    color: #1f3d7a;
+  }
+  
+  /* Style for input fields */
+  .withdraw-container label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color:  #193366;
+  }
+  
+  .withdraw-container input[type="number"],
+  .withdraw-container input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1.5rem;
+  }
+  
+  .withdraw-container input[type="number"] {
+    max-width: 500px;
+  }
+  
+  .withdraw-container button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: 	 #4775d1;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .withdraw-container button:hover {
+    background-color: #0056b3#0f1f3d;
+  }
+  
+  /* Style for balance display */
+  .withdraw-container h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #555;
+  }
+  /* Keyframes for slide-in animation from the right */
+@keyframes slideInFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(100%); /* Start from right off-screen */
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0); /* End at original position */
+  }
+}
+
+/* Style for the main container */
+.withdraw-container {
+  padding: 50px;
+  max-width: 600px;
+  margin: 0 auto;
+  border: 5px solid #ddd;
+  border-radius: 5px;
+  background-color: #99b3e6;
+  margin-top: 180px;
+  animation: slideInFromRight 0.8s ease-out; /* Apply animation */
+}
+
+/* Style for headings */
+.withdraw-container h2 {
+  font-size: 2rem;
+  color: #1f3d7a;
+}
+
+/* Style for input fields */
+.withdraw-container label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #193366;
+}
+
+.withdraw-container input[type="number"],
+.withdraw-container input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1.5rem;
+}
+
+.withdraw-container input[type="number"] {
+  max-width: 500px;
+}
+
+.withdraw-container button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #4775d1;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.withdraw-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for balance display */
+.withdraw-container h3 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #555;
+}
